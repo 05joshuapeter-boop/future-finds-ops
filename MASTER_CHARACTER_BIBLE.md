@@ -54,6 +54,11 @@ This document is the **override authority** for all Maruri content decisions.
 - Clothing: fits well, quality fabrics, never loud — confidence without effort
 - Never: oversexualized, trendy-for-the-sake-of-trendy, or heavily branded visible logos
 
+**Wardrobe Rotation (added 2026-07-12)**
+- Never repeat the exact same outfit across consecutive posts — every generation prompt must specify a distinct top/knit and, where the scene calls for it, distinct loungewear or outerwear, all still within the locked neutral/soft-tone palette above.
+- Keep a running rotation, e.g.: cream ribbed knit, oatmeal oversized cardigan, sage green fine-knit jumper, white linen shirt, stone-grey loungewear set, camel wrap cardigan. Jewellery (thin gold chain, small gold hoops) can stay constant as a consistency anchor even as clothing varies.
+- Reason: back-to-back posts in visibly identical clothing read as reused/AI-generated footage rather than a real person's daily content — undermines the "emotional authenticity" moat in Section 8.3.
+
 ## 2.2 Consistency Lock Rules
 
 For every Higgsfield generation:

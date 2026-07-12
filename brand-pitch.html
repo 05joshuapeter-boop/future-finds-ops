@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Future Finds × Brands — Work with Maruri Mori</title>
+<meta name="description" content="Maruri Mori is a precision content asset: organic integrations, UGC ad creative, and content packages for brands.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --void: #0A0A0A;
+    --void-lift: #101013;
+    --signal: #F5F5F0;
+    --signal-dim: rgba(245, 245, 240, 0.58);
+    --signal-faint: rgba(245, 245, 240, 0.32);
+    --hairline: rgba(245, 245, 240, 0.10);
+    --spectrum: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #F59E0B 100%);
+    --amber: #F59E0B;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--void);
+    color: var(--signal);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .micro {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 400;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--signal-faint);
+  }
+
+  .gradient-text {
+    background: var(--spectrum);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .gradient-line {
+    height: 1px;
+    width: 64px;
+    background: var(--spectrum);
+    border: none;
+  }
+
+  section {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 7rem 6vw;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .section-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin-bottom: 3.5rem;
+  }
+
+  h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: clamp(1.7rem, 3.6vw, 2.4rem);
+    letter-spacing: 0.03em;
+  }
+
+  /* ── Opening ── */
+  .opening {
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.4rem;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .opening h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: clamp(2.4rem, 6.5vw, 4.6rem);
+    letter-spacing: 0.01em;
+    line-height: 1.12;
+    max-width: 20ch;
+  }
+
+  .opening .lede {
+    max-width: 58ch;
+    font-size: clamp(1rem, 1.5vw, 1.15rem);
+    font-weight: 200;
+    color: var(--signal-dim);
+  }
+
+  .opening .lede strong { color: var(--signal); font-weight: 400; }
+
+  /* ── Audience ── */
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+    margin-bottom: 3rem;
+  }
+
+  .stat {
+    background: var(--void);
+    padding: 2.2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .stat .value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+  }
+
+  .stat .label {
+    font-size: 0.82rem;
+    color: var(--signal-dim);
+  }
+
+  .audience-copy {
+    max-width: 62ch;
+    font-size: 1.02rem;
+    color: rgba(245, 245, 240, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  /* ── Formats ── */
+  .formats {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+  }
+
+  .format {
+    background: var(--void);
+    padding: 3rem 2.6rem;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 2rem;
+    transition: background 0.3s ease;
+  }
+
+  .format:hover { background: var(--void-lift); }
+
+  .format .format-index {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.3em;
+    background: var(--spectrum);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-top: 0.35rem;
+  }
+
+  .format h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.9rem;
+  }
+
+  .format p {
+    font-size: 0.96rem;
+    color: var(--signal-dim);
+    max-width: 62ch;
+    margin-bottom: 0.9rem;
+  }
+
+  .format ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    font-size: 0.9rem;
+    color: rgba(245, 245, 240, 0.75);
+  }
+
+  .format ul li {
+    padding-left: 1.4rem;
+    position: relative;
+  }
+
+  .format ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.65em;
+    width: 8px;
+    height: 1px;
+    background: var(--spectrum);
+  }
+
+  /* ── Advantage ── */
+  .advantage-lede {
+    max-width: 60ch;
+    font-size: 1.08rem;
+    color: rgba(245, 245, 240, 0.85);
+    margin-bottom: 3rem;
+  }
+
+  .advantage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+  }
+
+  .advantage {
+    background: var(--void);
+    padding: 2.4rem 2.2rem;
+  }
+
+  .advantage h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1.02rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.7rem;
+  }
+
+  .advantage p {
+    font-size: 0.9rem;
+    color: var(--signal-dim);
+  }
+
+  /* ── Selected Work ── */
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+  }
+
+  .work-item {
+    background: var(--void);
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .work-item .frame {
+    aspect-ratio: 9 / 16;
+    max-height: 380px;
+    border: 1px solid var(--hairline);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--void-lift);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .work-item .frame::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--spectrum);
+  }
+
+  .work-item .frame video { width: 100%; height: 100%; object-fit: cover; }
+
+  .work-item .frame .placeholder {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--signal-faint);
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .work-item .work-label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--signal-dim);
+  }
+
+  @media (max-width: 860px) {
+    .work-grid { grid-template-columns: 1fr; }
+    .work-item .frame { max-height: 420px; }
+  }
+
+  /* ── Testimonials ── */
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .testimonial {
+    border: 1px solid var(--hairline);
+    padding: 2.6rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    position: relative;
+  }
+
+  .testimonial::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background: var(--spectrum);
+  }
+
+  .testimonial .quote {
+    font-size: 1rem;
+    font-weight: 200;
+    color: var(--signal-dim);
+    font-style: italic;
+  }
+
+  .testimonial .attribution {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--signal-faint);
+  }
+
+  /* ── Process ── */
+  .process {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+    margin-bottom: 2.2rem;
+  }
+
+  .step {
+    background: var(--void);
+    padding: 2.4rem 1.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .step .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.3em;
+    background: var(--spectrum);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .step h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+  }
+
+  .step p {
+    font-size: 0.85rem;
+    color: var(--signal-dim);
+  }
+
+  .turnaround {
+    font-size: 0.92rem;
+    color: rgba(245, 245, 240, 0.75);
+  }
+
+  .turnaround strong { color: var(--signal); font-weight: 400; }
+
+  /* ── Contact ── */
+  .contact {
+    text-align: left;
+    border-bottom: none;
+    padding-bottom: 9rem;
+  }
+
+  .contact .big {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: clamp(1.9rem, 4.5vw, 3rem);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    max-width: 22ch;
+    margin-bottom: 2.6rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 400;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--void);
+    background: var(--signal);
+    text-decoration: none;
+    padding: 1.15rem 2.8rem;
+    transition: opacity 0.3s ease;
+  }
+
+  .cta-button:hover { opacity: 0.85; }
+
+  .contact .note {
+    display: block;
+    margin-top: 1.4rem;
+    font-size: 0.85rem;
+    color: var(--signal-faint);
+    max-width: 52ch;
+  }
+
+  footer {
+    padding: 2.8rem 6vw;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    color: var(--signal-faint);
+  }
+
+  footer .wordmark {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--signal);
+  }
+
+  @media (max-width: 860px) {
+    .stat-row { grid-template-columns: 1fr; }
+    .advantage-grid { grid-template-columns: 1fr; }
+    .testimonials { grid-template-columns: 1fr; }
+    .process { grid-template-columns: 1fr 1fr; }
+    .format { grid-template-columns: 1fr; gap: 1rem; }
+    section { padding: 5rem 7vw; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── 1. OPENING ─────────────────────────────────── -->
+<section class="opening">
+  <span class="micro">Future Finds × Brands</span>
+  <h1>The creator who is never off-brief, never off-schedule, and never <span class="gradient-text">off-brand.</span></h1>
+  <p class="lede"><strong>Future Finds</strong> is a curation brand built on one principle: recommend only what's genuinely good. Its face is <strong>Maruri Mori</strong> — a London-based digital creator with an audience that trusts her taste enough to buy from it.</p>
+  <p class="lede">Maruri is not an influencer in the traditional sense. She is a <strong>precision content asset</strong>: a fully directed digital talent whose face, voice, and persona are engineered for consistency. Brands don't book her time — they license her presence. And her presence never has a bad day.</p>
+</section>
+
+<!-- ── 2. THE AUDIENCE ────────────────────────────── -->
+<section id="audience">
+  <div class="section-head">
+    <span class="micro">02 — The Audience</span>
+    <h2>Who watches Maruri</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <div class="stat-row">
+    <div class="stat">
+      <span class="value">22–34</span>
+      <span class="label">Core age range. Taste-conscious, early-to-mid career, disposable income they spend selectively.</span>
+    </div>
+    <div class="stat">
+      <span class="value">UK-first</span>
+      <span class="label">Primary market, with US, Australian, and Canadian secondary reach. English-speaking, Amazon Prime households.</span>
+    </div>
+    <div class="stat">
+      <span class="value">£15–£80</span>
+      <span class="label">Purchase sweet spot — low enough for impulse, high enough to feel like an investment.</span>
+    </div>
+  </div>
+
+  <div class="audience-copy">
+    <p>They call themselves selective, and they are: they read reviews, they research before buying, and they're openly sceptical of influencer culture. They follow the rare accounts they trust — and when they trust, they act.</p>
+    <p>The behavioural signals matter more than the demographics: <strong style="color:#F5F5F0;font-weight:400;">they save, they share, and they buy.</strong> They save videos for products they intend to purchase. They share content that makes them look like they have taste. They comment when they want to claim a discovery. These are not passive viewers — they are an audience in discovery mode, actively looking for the next thing worth owning.</p>
+  </div>
+</section>
+
+<!-- ── 3. FORMATS ─────────────────────────────────── -->
+<section id="formats">
+  <div class="section-head">
+    <span class="micro">03 — Formats</span>
+    <h2>Three ways to work together</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <div class="formats">
+
+    <div class="format">
+      <span class="format-index">A</span>
+      <div>
+        <h3>Organic Integration</h3>
+        <p>Maruri features your product in a genuine discovery-style video — the same editorial format her audience already trusts, posted to TikTok and Instagram. Your product isn't interrupted into her feed; it's woven into it.</p>
+        <ul>
+          <li>Discovery-format video native to each platform</li>
+          <li>Scripted in her voice, against her curation standard</li>
+          <li>Posted with full disclosure — trust preserved, for her audience and yours</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="format">
+      <span class="format-index">B</span>
+      <div>
+        <h3>UGC Ad Creative</h3>
+        <p>Maruri produces platform-native ad video for your paid media — creative built to run as dark posts, Spark Ads, or boosted content under your brand's account. This is where an AI creator stops being interesting and starts being decisive:</p>
+        <ul>
+          <li>One consistent face and voice across unlimited variations — hooks, angles, and lengths on demand</li>
+          <li>Rapid turnaround: new variants in days, not shoot cycles</li>
+          <li>Zero talent scheduling friction — she is available the day the brief lands</li>
+          <li>No usage rights disputes: clean, contractual licensing with no renewal negotiations mid-campaign</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="format">
+      <span class="format-index">C</span>
+      <div>
+        <h3>Content Packages</h3>
+        <p>An ongoing retainer for monthly content production — a steady pipeline of creative from a talent whose output never varies in quality and never depends on availability.</p>
+        <ul>
+          <li>Monthly volume of organic and/or ad creative, agreed up front</li>
+          <li>Iterative optimisation: winning hooks are re-cut into new variants</li>
+          <li>Priority turnaround and a standing creative relationship</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── 4. WHY AI IS THE ADVANTAGE ─────────────────── -->
+<section id="advantage">
+  <div class="section-head">
+    <span class="micro">04 — The Advantage</span>
+    <h2>Why an AI creator — said plainly</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <p class="advantage-lede">Maruri is AI-generated, and we treat that as a specification, not a confession. Every attribute a brand wants from creator content — consistency, availability, safety, scale — is exactly where human talent is structurally weakest, and exactly where a directed digital creator is strongest.</p>
+
+  <div class="advantage-grid">
+    <div class="advantage">
+      <h3>Guaranteed consistency</h3>
+      <p>The Maruri in asset one is the Maruri in asset one hundred. Same face, same voice, same energy, same brand alignment — across every variation, forever. No drift between shoots, no off days on camera.</p>
+    </div>
+    <div class="advantage">
+      <h3>Unlimited revisions, zero reshoots</h3>
+      <p>A changed line, a new hook, a different CTA — revisions are a production pass, not a re-booking. You iterate creative the way you iterate media: quickly, and as often as the data asks you to.</p>
+    </div>
+    <div class="advantage">
+      <h3>No talent risk</h3>
+      <p>Maruri will never have a scandal, a rogue tweet, or a conflicting sponsorship surface mid-campaign. Her past, present, and future behaviour are all governed by a character bible your contract can reference.</p>
+    </div>
+    <div class="advantage">
+      <h3>Scale at a fraction of the cost</h3>
+      <p>Producing twenty creative variants with human talent means twenty shoots' worth of logistics. With Maruri it means twenty renders. High-volume creative testing becomes economically trivial.</p>
+    </div>
+    <div class="advantage">
+      <h3>On-demand availability</h3>
+      <p>Campaign moved up? Product launch slipped? Maruri's calendar is your calendar. Standard production runs 3–5 business days from approved script — with no dependency on anyone's availability.</p>
+    </div>
+    <div class="advantage">
+      <h3>Clean rights, forever</h3>
+      <p>No image-rights renewals, no usage-window expiries, no likeness disputes. Licensing terms are set once, in plain contractual language, and they hold.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── SELECTED WORK ──────────────────────────────── -->
+<section id="work">
+  <div class="section-head">
+    <span class="micro">Selected Work</span>
+    <h2>See her in ad format</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <div class="work-grid">
+    <div class="work-item">
+      <div class="frame">
+        <video src="media/spec-ad-001-matcha.mp4" controls muted playsinline preload="metadata"></video>
+      </div>
+      <span class="work-label">01 · Wellness — Morning Energy</span>
+    </div>
+    <div class="work-item">
+      <div class="frame">
+        <video src="media/spec-ad-002-diffuser.mp4" controls muted playsinline preload="metadata"></video>
+      </div>
+      <span class="work-label">02 · Home — Evening Reset</span>
+    </div>
+    <div class="work-item">
+      <div class="frame">
+        <video src="media/spec-ad-003-lamy.mp4" controls muted playsinline preload="metadata"></video>
+      </div>
+      <span class="work-label">03 · Desk — Considered Carry</span>
+    </div>
+  </div>
+
+  <div style="margin-top: 2rem; text-align: center;">
+    <a href="media/demo-reel-9x16.mp4" target="_blank" style="font-family:'Space Grotesk',sans-serif; font-size:0.75rem; letter-spacing:0.22em; text-transform:uppercase; color: var(--signal-dim); text-decoration:none; border-bottom:1px solid var(--hairline);">Watch the full 30s reel →</a>
+  </div>
+</section>
+
+<!-- ── 5. WHAT BRANDS SAY ─────────────────────────── -->
+<section id="testimonials">
+  <div class="section-head">
+    <span class="micro">05 — What Brands Say</span>
+    <h2>From the people who've run her creative</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <div class="testimonials">
+    <div class="testimonial">
+      <p class="quote">[Client testimonial — to be added]</p>
+      <span class="attribution">— Brand, Category</span>
+    </div>
+    <div class="testimonial">
+      <p class="quote">[Client testimonial — to be added]</p>
+      <span class="attribution">— Agency, Campaign</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── 6. PROCESS ─────────────────────────────────── -->
+<section id="process">
+  <div class="section-head">
+    <span class="micro">06 — Process</span>
+    <h2>How it works</h2>
+    <hr class="gradient-line">
+  </div>
+
+  <div class="process">
+    <div class="step">
+      <span class="num">01</span>
+      <h3>Brief</h3>
+      <p>You share the product, the objective, and the platform. We come back with a creative approach in Maruri's voice.</p>
+    </div>
+    <div class="step">
+      <span class="num">02</span>
+      <h3>Script approval</h3>
+      <p>You see every word before production. What you approve is exactly what gets made — no interpretation gap.</p>
+    </div>
+    <div class="step">
+      <span class="num">03</span>
+      <h3>Production</h3>
+      <p>Maruri performs the approved script — face, voice, and delivery rendered to her locked character standard.</p>
+    </div>
+    <div class="step">
+      <span class="num">04</span>
+      <h3>Delivery</h3>
+      <p>Platform-ready files, in the formats and aspect ratios your media plan needs, with licensing documented.</p>
+    </div>
+  </div>
+
+  <p class="turnaround">Standard UGC package turnaround: <strong>3–5 business days</strong> from approved script. Revisions typically within 48 hours.</p>
+</section>
+
+<!-- ── 7. GET IN TOUCH ────────────────────────────── -->
+<section class="contact" id="contact">
+  <span class="micro">07 — Get In Touch</span>
+  <p class="big">Tell us about your product. We'll tell you honestly whether Maruri is the right fit.</p>
+  <a class="cta-button" href="mailto:hello@futurefindsmedia.com?subject=Brand%20enquiry%20—%20Future%20Finds">Start the conversation</a>
+  <span class="note">Rate cards are sent on request, tailored to format and volume. Most enquiries receive a reply within one business day.</span>
+</section>
+
+<footer>
+  <span class="wordmark">Future Finds</span>
+  <span>© 2026 Future Finds · @futurefindsmedia · Things worth finding.</span>
+</footer>
+
+</body>
+</html>

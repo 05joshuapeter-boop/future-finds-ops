@@ -4,6 +4,27 @@
 
 ---
 
+## Status note (2026-07-12, evening) — SUPERSEDES the earlier 2026-07-12 note below
+
+**First live test sessions ran successfully — Production and Supervisor are confirmed working end to end, not just wired.** Both hit a real, important gap on the first attempt: they had the NocoDB table IDs/endpoints in their system prompts but no actual credential to authenticate with, and both handled it exactly right — searched sensibly for a token, got a clean 401, refused to fabricate results, and clearly reported what they needed. That's the correct failure mode for a first run.
+
+**Fix: NocoDB access now goes through a vault**, not a bare env var pasted into prompts. Vault `vlt_011CcxXRWQuFUBj6dRLT4Uu9` ("Future Finds Agents") holds one `environment_variable` credential (`NOCODB_API_TOKEN`, header-only injection, scoped to `app.nocodb.com`) — the agent's sandbox sees an opaque placeholder in `$NOCODB_API_TOKEN`; the real token is substituted only at egress, only into headers, only to that host. The agent never sees the raw value. **Every session that needs NocoDB access must pass `vault_ids: ["vlt_011CcxXRWQuFUBj6dRLT4Uu9"]` at creation** — it's a session-time parameter, not baked into the agent definition.
+
+Retested with fresh sessions after adding the vault: Production correctly queried Deals and reported 0 rows at `Status = "Brief Ready"` (accurate — nothing has gone through Sales yet). Supervisor read both tables (43 Deals rows, 6 Category_Exclusivity rows) and correctly reasoned that Anker's `"Blocked - exclusivity conflict"` status isn't a silent stuck item even though it isn't Complete/Lost — then quoted its Notes field back verbatim, unprompted precision. Neither wrote anything, per the dry-run instructions given.
+
+Shared environment for all sessions: `env_017RvUSk5berNdEQqUjX5V9Q` (cloud, ffmpeg preinstalled, unrestricted networking).
+
+**Decided: `brand-pitch.html` in the docs repo is a draft surface only, not a deploy source.** There is no CI/CD wired to the live site (it was manually deployed to a static host per the original launch checklist) — Supervisor edits the repo copy, a human copies changes to the live site manually, exactly the same draft-then-human-action pattern as Sales's Gmail drafts. Revisit only if the site ever gets a real deploy pipeline.
+
+**Data quality fix (2026-07-12):** two Deals rows still had placeholder brand names from early planning that were never updated after the real products shipped — row 3 was "Paddywax Europe" (the actual organic feature was NEOM Organics London's travel candle) and row 4 was "Baggu" (actually KALIDI). Both corrected directly in NocoDB to match `Category_Exclusivity_Log.csv`, which was already accurate. Row 5 (Anker) — dropped from both the website and UGC production per the exclusivity log — moved from `Status = Not Contacted` to `Status = "Blocked - exclusivity conflict"` with the reason in Notes, so Sales's normal pitch queue skips it until the operator confirms one way or the other.
+
+**Still open:**
+1. **Gmail MCP wiring for Sales — real finding, not a quick fix.** Managed Agents' MCP connector needs a public server URL plus a vault credential; it cannot reuse Claude Code's own internal Gmail connector plumbing. The correct mechanism is [MCP tunnels](https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview) (Docker + Cloudflare, confirmed via the platform docs) — but that tunnels to a *standalone* Gmail MCP server you already have running, and none exists yet. Getting there needs: a new Google Cloud OAuth app (separate from whatever grants Claude Code its own Gmail access), an actual Gmail MCP server implementation running in Docker, and several Console-only steps (creating the tunnel, uploading a CA cert) only the account owner can do. **This does not block using Sales today** — manually invoked ("run the sales agent"), it runs as a regular Claude Code session using the Gmail access already available plus the same NocoDB REST API. The Managed Agent version of Sales is specifically for future *unattended/scheduled* operation.
+2. **Sales has not had its own first test session yet** — Production and Supervisor are proven; Sales (Managed Agent form) is still unverified, pending the Gmail decision above.
+
+<details>
+<summary>2026-07-12 morning note (superseded)</summary>
+
 ## Status note (2026-07-12) — SUPERSEDES the 2026-07-11 note below
 
 **NocoDB is live and fully populated.** Account: `hello@futurefindsmedia.com` (credentials + API token in `Agent Infrastructure\.env`, not in this doc). Workspace `w44rupyt`, base `Future Finds UGC Pipeline` (id `pqwtuyy7dhpjby1`). Two tables, both migrated from the CSV trackers and verified by read-back:
@@ -42,6 +63,8 @@ Definitions saved at `Agent Infrastructure\agent_sales.json`, `agent_production.
 **Original monday.com note (2026-07-10, superseded above):** was a hybrid: monday.com (`Future Finds — UGC Ops` workspace, `UGC Deal Pipeline` board, both created) as the visual system of record, with Claude running the actual agent roles below and reading/writing those boards.
 
 **monday write access was blocked.** The connected integration could create workspaces/boards but not columns, groups, or even basic items — every write returned `User unauthorized to perform action`. Reads worked fine. Likely a plan-tier or seat-permission restriction, not fixable from this side.
+
+</details>
 
 ---
 

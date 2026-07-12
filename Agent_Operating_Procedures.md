@@ -4,24 +4,40 @@
 
 ---
 
-## Status note (2026-07-11) — SUPERSEDES the 2026-07-10 monday.com note below
+## Status note (2026-07-12) — SUPERSEDES the 2026-07-11 note below
 
-**monday.com is abandoned as the system of record** (workspace/board still exist at https://05joshuapeters-team.monday.com/boards/5100087206 but were never usable — all writes beyond board/workspace creation returned `User unauthorized to perform action`). Decided via a 4-stance adversarial debate (workflow `wf_58ce6539-d9c`, 2026-07-11): **NocoDB free Cloud tier is the system of record**, reached by plain REST/HTTP from Managed Agents (no MCP server, no tunnel needed) — self-hosting NocoDB lost because it would need to be internet-reachable for cloud-scheduled agents to reach it, recreating a monday-style single point of failure as a live security exposure instead. Full reasoning: `Agent Infrastructure\architecture_debate_synthesis.md`.
+**NocoDB is live and fully populated.** Account: `hello@futurefindsmedia.com` (credentials + API token in `Agent Infrastructure\.env`, not in this doc). Workspace `w44rupyt`, base `Future Finds UGC Pipeline` (id `pqwtuyy7dhpjby1`). Two tables, both migrated from the CSV trackers and verified by read-back:
+| Table | Table ID | Rows |
+|---|---|---|
+| Deals | `mxa9byegmihhmhv` | 43 (from `Outbound_Target_List.csv`) |
+| Category_Exclusivity | `mt7tu12z9znwyqs` | 6 (from `Category_Exclusivity_Log.csv`) |
 
-**Three Claude Managed Agents are live** (created via the Anthropic API, beta `managed-agents-2026-04-01`):
+Deals fields: Brand, Category, Warmth, Why They Fit, Contact Route, Status, Last Touch, Notes, Draft ID, QA Status, Asset Link. Category_Exclusivity fields: Date, Brand, Product Category, Relationship, Exclusivity Window, Window Ends, Notes. Access is plain REST (`GET`/`POST`/`PATCH` on `https://app.nocodb.com/api/v2/tables/{tableId}/records`, header `xc-token`) — no MCP server involved.
+
+**Git repo is live:** [github.com/05joshuapeter-boop/future-finds-ops](https://github.com/05joshuapeter-boop/future-finds-ops) — the 10 reference docs pushed and confirmed. Open question, not yet resolved: `brand-pitch.html` is in this repo for Supervisor to edit testimonial placeholders, but whether this repo becomes the actual deploy source for the live site (vs. Supervisor just drafting edits here for manual copy-over) hasn't been decided.
+
+**Three Claude Managed Agents are live and now carry the real NocoDB IDs/endpoints in their system prompts** (updated 2026-07-12, all at version 2):
 | Role | Agent ID |
 |---|---|
 | Sales/Deal | `agent_01FG6h1qtAZ9riUkQK7AQ1Jq` |
 | Production | `agent_0117j1ZWCE7Wg7qCwZYZs2xw` |
 | Supervisor | `agent_01Mf4fCRcFtJubmYgzBenKmV` |
 
-Definitions saved at `Agent Infrastructure\agent_sales.json`, `agent_production.json`, `agent_supervisor.json`. These are agent *definitions* only — no environment or session exists yet, so nothing is running or costing money beyond the definition call itself.
+Still no environment or session created — nothing is actually *running* yet, this is a fully-wired scaffold.
 
-**Blocked on external setup, in this order — needs the user, not another autonomous pass:**
-1. **NocoDB Cloud account** — sign up (free tier), create a base with `Deals` and `Category_Exclusivity` tables, import `Outbound_Target_List.csv` and `Category_Exclusivity_Log.csv` via NocoDB's CSV import, generate an API token. I did not attempt this myself — creating a new external account with its own credentials is your call, not mine to do unprompted.
-2. **Git repo** — push `Outreach_Email_Templates.md`, the rate card, the usage-rights terms sheet, and this file to a private GitHub repo, for the agents to clone read-only reference material at session start.
-3. **Gmail MCP wiring for the Sales agent — genuinely unresolved, not just unset up.** Managed Agents' MCP connector needs a `url` field (a public MCP server endpoint) plus a registered `vault` credential — it does NOT reuse whatever connector plumbing exists inside a Claude Code session. I don't currently know whether the `hello@futurefindsmedia.com` Gmail connector has an exposable URL of this kind, or whether it needs its own dedicated MCP server + OAuth app stood up from scratch. Sales agent was created *without* Gmail wired in — it will refuse email actions per its own system prompt until this is resolved. This needs real investigation, not a guess.
-4. **Environments + first session** — only meaningful once 1–3 above exist; environment creation and first test session are quick once the dependencies are real.
+**Still blocked — needs the user, not another autonomous pass:**
+1. **Gmail MCP wiring for the Sales agent — genuinely unresolved, not just unset up.** Managed Agents' MCP connector needs a `url` field (a public MCP server endpoint) plus a registered `vault` credential — it does NOT reuse whatever connector plumbing exists inside a Claude Code session. I don't currently know whether the `hello@futurefindsmedia.com` Gmail connector has an exposable URL of this kind, or whether it needs its own dedicated MCP server + OAuth app stood up from scratch. Sales agent was created *without* Gmail wired in — it will refuse email actions per its own system prompt until this is resolved. This needs real investigation, not a guess.
+2. **Environments + first session** — the last mechanical step once Gmail is sorted (Production and Supervisor don't need Gmail at all and could get a first test session sooner).
+3. **The brand-pitch.html live-sync question** flagged above.
+
+<details>
+<summary>2026-07-11 note (superseded)</summary>
+
+**monday.com is abandoned as the system of record** (workspace/board still exist at https://05joshuapeters-team.monday.com/boards/5100087206 but were never usable — all writes beyond board/workspace creation returned `User unauthorized to perform action`). Decided via a 4-stance adversarial debate (workflow `wf_58ce6539-d9c`, 2026-07-11): **NocoDB free Cloud tier is the system of record**, reached by plain REST/HTTP from Managed Agents (no MCP server, no tunnel needed) — self-hosting NocoDB lost because it would need to be internet-reachable for cloud-scheduled agents to reach it, recreating a monday-style single point of failure as a live security exposure instead. Full reasoning: `Agent Infrastructure\architecture_debate_synthesis.md`.
+
+Definitions saved at `Agent Infrastructure\agent_sales.json`, `agent_production.json`, `agent_supervisor.json` — these are the version-1 originals, now superseded by version 2 above.
+
+</details>
 
 **Original monday.com note (2026-07-10, superseded above):** was a hybrid: monday.com (`Future Finds — UGC Ops` workspace, `UGC Deal Pipeline` board, both created) as the visual system of record, with Claude running the actual agent roles below and reading/writing those boards.
 

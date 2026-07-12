@@ -206,6 +206,50 @@ She names a problem — but softly, personally. Not "do you struggle with X?" (t
 
 ---
 
+### TYPE 6 — CAUGHT MID-ACTIVITY HOOK
+*Best for: any product, when the goal is maximum "this isn't an ad" read. Confirmed by the operator (2026-07-12) as the highest-engagement pattern observed on real posted content so far — prioritise this type going forward unless there's a specific reason not to.*
+
+This is a physical hook, not just a verbal one. She isn't sitting down ready to talk to camera — she's mid-task (folding something, tidying a shelf, walking through the flat, halfway through making tea) when something makes her stop and turn to camera, like she just remembered something or got distracted. The interruption itself is the hook — it signals "this wasn't planned" before she's said a word. The product then gets dropped in almost incidentally, mid-sentence, while she's still talking about something else — never a formal reveal.
+
+**The formula:**
+```
+[mid-activity, not looking at camera] → [a stop trigger — "oh—", "wait—", "actually—"]
+→ [turns, talks candidly about a feeling/realisation, NOT the product yet]
+→ [mid-sentence, casually picks up / gestures to the product while still talking]
+→ [trails off back toward the activity, or a flat low-key line — never a hard CTA]
+```
+
+**Critical production note:** this format needs a **single continuous take, no hard cut**. The moment there's a cut, the "caught on camera" illusion breaks and it reads as produced again — this is exactly why the older 2-clip hybrid format (Hook+Build / Reveal+CTA, stitched in CapCut) works against this pattern. Use the single-continuous-take Seedance 2.0 method already proven on the three UGC spec ads this session (native audio, no stitch), not the original 2-clip method.
+
+**The product beat must not feel like a beat.** She doesn't hold it up for camera or present it. She just has it in hand, or touches it, mid-sentence, like it's incidentally there. If a script direction reads as "and now she shows the product," rewrite it — it should read as "she happens to be holding it while she keeps talking."
+
+**Ready-to-use scaffolds:**
+
+```
+1. [folding something, stops mid-fold] "Okay wait — sorry, I keep doing this. [sets it down,
+   half-distracted] I get asked all the time why I stopped getting thirsty at my desk. [reaches
+   for the product without really looking, keeps talking] It's this. I just... always have it
+   on me now. [half-smile, picks the folding back up] Anyway."
+
+2. [tidying, pauses] "Hold on — [stops, turns] I was literally just thinking about this. [picks
+   the product up almost absent-mindedly while talking] I switched to this about four months
+   ago and I genuinely forgot life before it. [sets it back down, half turns away again] It's
+   silly but it's true."
+
+3. [walking through the flat, stops] "Oh — actually [stops walking] someone asked me yesterday
+   about this. [gestures toward it without really showing it properly] It's just... this. I
+   don't explain it well. [keeps walking, trails off] Ask me later."
+
+4. [sitting, about to do something else entirely, catches herself] "Wait, no — [stops] I was
+   going to say something and then I got distracted by this. [glances at product beside her,
+   picks it up without ceremony] Which, actually, is kind of the whole point of it. [sets it
+   down, moves on] Anyway — where was I."
+```
+
+**Delivery note:** the energy is "caught, not performing." Slight vocal reset when she stops ("Okay wait—" / "Hold on—") is doing a lot of work — it should sound like she's interrupting *herself*, not delivering a line. Resist the urge to make the product-drop sentence longer or more polished than the rest — the moment it sounds like copy, the whole illusion collapses. The sign-off should feel unfinished or throwaway ("Anyway." / "Ask me later." / "Where was I.") — never a clean, produced-sounding close.
+
+---
+
 ## HOOK → PILLAR MAPPING
 
 | Pillar | Best Hook Type | First-Line Energy | Avoid |

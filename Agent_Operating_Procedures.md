@@ -4,6 +4,26 @@
 
 ---
 
+## Status note (2026-07-12, night) — operator directive, read before any new generation
+
+**Credit discipline is now a hard constraint, not a nice-to-have.** No UGC deal or
+affiliate income has landed yet, so Higgsfield credits (3,918.8 remaining as of
+tonight) are pure runway, not a sunk cost to spend freely. Full detail, real
+`get_cost` numbers, and the repurposing workflow are in
+`PRODUCTION SOP\Production_Economics.md` — read it before Production generates
+anything. Short version: default to **10s/720p/fast** (35 credits) instead of the
+15s/1080p/std (135 credits) used for the first Week 2 batch, reuse the
+strengthened no-reveal/no-music prompt language now locked into the Week 2 scripts
+to avoid paying for a redo, and treat every master clip as raw material for 3-4
+pieces of content (teaser cut, still frame, later re-caption) via local ffmpeg —
+not a single-use asset.
+
+**Wardrobe rotation is now locked in `MASTER_CHARACTER_BIBLE.md` §2.1.** Every
+Week 2 clip used the identical outfit — don't repeat that. Vary the top/knit (and
+outerwear/loungewear where the scene calls for it) on every new generation, within
+the existing neutral-palette rule; jewellery can stay constant as a consistency
+anchor.
+
 ## Status note (2026-07-12, evening) — SUPERSEDES the earlier 2026-07-12 note below
 
 **First live test sessions ran successfully — Production and Supervisor are confirmed working end to end, not just wired.** Both hit a real, important gap on the first attempt: they had the NocoDB table IDs/endpoints in their system prompts but no actual credential to authenticate with, and both handled it exactly right — searched sensibly for a token, got a clean 401, refused to fabricate results, and clearly reported what they needed. That's the correct failure mode for a first run.

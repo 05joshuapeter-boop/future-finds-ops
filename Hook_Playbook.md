@@ -250,6 +250,34 @@ This is a physical hook, not just a verbal one. She isn't sitting down ready to 
 
 ---
 
+## OPENING TECHNIQUE — THE CAMERA FUMBLE
+
+*Confirmed by the operator (2026-07-12) as a distinct, stackable engagement technique — layers onto any hook type above, most naturally Type 6. This is a PHYSICAL cold-open, not a verbal hook — it happens before she's said a single scripted word.*
+
+The clip opens before she's "ready." She walks into frame — into the kitchen, up to the desk, wherever — and instead of already being composed and talking, she's visibly still sorting the camera out: leaning in close to check focus, tapping or knocking the lens, muttering something short and functional ("Hold on—", "Can you—", "Is that... okay.") like she's talking to the phone, not the viewer. Only once that's "resolved" does she settle, exhale, and move into the actual hook.
+
+**Why it works:** it's the single strongest "this is not produced content" signal available — a genuinely composed, camera-ready opening reads as an ad within the first frame; a fumbled, self-correcting one reads as a real phone propped up by a real person. It also buys an extra half-second of pattern interrupt beyond the hook line itself, which matters inside the 1.7-second scroll window.
+
+**The formula:**
+```
+[walks into frame, not yet performing] → [leans toward camera / taps or knocks the lens,
+muttering a short functional line to the phone, not the viewer] → [steps back, resolves —
+small exhale or reset] → [NOW the actual hook / Type 6 sequence begins]
+```
+
+**Ready-to-use fumble openers:**
+```
+1. "Hold on—" [leans in, taps lens, image wobbles] "Can you—okay. Right."
+
+2. [walks in adjusting the tripod angle] "Is that... hm." [taps lens once] "Okay, that'll do."
+
+3. [leans in close, one eye squinting at the lens] "Sorry, one sec—" [steps back] "Okay."
+```
+
+**Delivery note:** keep the fumble SHORT — 1–2 seconds, three beats maximum (approach, tap/adjust, resolve). If it runs long it stops feeling incidental and starts feeling like a bit. The line she mutters during the fumble is functional, not a joke and not eye contact — she's talking to the device, the real hook line only starts once she's "found" the camera and is actually looking at it. Production note: this only works as the true opening seconds of a single continuous take — it cannot be a separate clip or cutaway.
+
+---
+
 ## HOOK → PILLAR MAPPING
 
 | Pillar | Best Hook Type | First-Line Energy | Avoid |

@@ -257,35 +257,40 @@ No product anywhere in the clip, no affiliate link, nothing to buy. The entire c
 
 **Critical guardrail — read before writing any Type 7 script.** "Strong opinion" means confident and specific, **not divisive or dramatic.** Character Bible §7.3 is explicit: Maruri would never post "drama / controversy (not her register)." Every Type 7 topic must live entirely in low-stakes taste/lifestyle territory — interior design, communication habits, daily routines, aesthetic preferences, work-life norms. Never politics, real conflict, identity, or anything that reads as mean about a specific person or group. **The test:** could two friends have a lighthearted, slightly heated back-and-forth about this over coffee and still be friends five minutes later? If not, it's not a Type 7 topic — find a smaller, safer disagreement instead.
 
+**Second guardrail, added 2026-07-13 — read together with the one above.** Confirmed across Scripts 011/012/013: a plain-opinion-no-hedging formula, taken too literally, reads as entitled or snobbish rather than confident — even with "warm" delivery notes layered on, because the problem is structural (what she says and how the clip resolves), not vocal tone. The Character Bible's own prompt anchor (§9.3) is the standard: "She talks *with* the viewer, not *at* them." Concretely avoid: implying other people are simply wrong or slow to notice something ("I will never understand why..."), a dismissive-comeback phrase structure ("it's called X"), a hard one-word full-stop close ("Done."), and any "you're allowed to disagree" framing that performs magnanimity instead of genuinely inviting a response. Every Type 7 clip must include one real beat of her looking directly at camera with warmth — not just smiling to herself, not already turned away — before she moves on; a clip that never actually looks at the viewer reads as not needing their reaction, which is the entitled tell. **The test:** does this sound like a grounded person thinking out loud with a friend, or someone delivering a verdict who doesn't need to check how it landed? If the second one, rewrite it drier and warmer — not louder, not funnier.
+
 **The formula:**
 ```
 [mundane activity, same "caught mid-task" DNA as Type 6] → [a genuine trigger — "okay actually—",
-"no because—", "unpopular opinion but—"] → [states the opinion PLAINLY, no hedging, no
-"just my opinion but" softening] → [one brief, specific reason — not a lecture, one or two
-sentences] → [a dry, unbothered close — she's not chasing a reaction, she already believes it]
+"no because—", "unpopular opinion but—"] → [states the opinion plainly and confidently — still no
+"just my opinion but" hedging, but never at the expense of warmth] → [one brief, specific reason —
+not a lecture, one or two sentences] → [a real, warm look at camera — she's including the viewer in
+the thought — then a light close that leaves room for them, not a door-slam]
 ```
 
 **What makes this different from Type 6:** Type 6 drops a product almost incidentally mid-sentence. Type 7 drops an *opinion* the same way — mid-task, unplanned-feeling, said once and left alone. There's no product beat to protect, so the clip can genuinely run shorter than the product scripts (10s or under is fine).
 
 **Ready-to-use scaffolds:**
 ```
-1. [tidying, stops] "Okay, actually—" [half-laughs] "unpopular opinion, but leaving someone on
-   read for a few hours isn't rude. [shrugs, keeps tidying] It's called being busy. Anyway."
+1. [tidying, stops] "Okay, actually—" [half-laughs, looks up properly at camera] "unpopular
+   opinion, but leaving someone on read for a few hours isn't rude. [shrugs, warm] Everyone's
+   just busy, that's honestly all it is. [keeps tidying, still smiling] Anyway."
 
-2. [making tea, distracted] "No because—" [turns] "open shelving in kitchens is impractical and
-   I will never understand why it's still a whole aesthetic. [half-smile] Dust. Constant dust.
-   [turns back to the tea] That's it, that's the take."
+2. [making tea, distracted] "No because—" [turns, meets camera] "open shelving in kitchens is
+   impractical, I just don't get the appeal, personally. [half-smile] Dust. Constant dust.
+   [turns back to the tea, warm] That's it, that's the take."
 
-3. [sitting, looks up from her phone] "Wait, actually—" [sets phone down] "the ten-step skincare
-   routine thing is mostly just marketing. [shrugs] Cleanser, one serum, moisturiser. Done.
-   [half-laugh, picks phone back up] You can disagree, I won't be offended."
+3. [sitting, looks up from her phone] "Wait, actually—" [sets phone down, looks at camera] "the
+   ten-step skincare routine thing is mostly just marketing. [shrugs, warm] Cleanser, one serum,
+   moisturiser. That's genuinely it. [half-laugh, picks phone back up] Feel free to fight me on
+   it though."
 
-4. [walking through the flat] "Okay, hot take—" [keeps walking, half turns back] "Sundays don't
-   have to be a whole reset. Sometimes it's just... a day. [shrugs, keeps walking] Nothing has
-   to be optimised."
+4. [walking through the flat] "Okay, hot take—" [keeps walking, glances back at camera warmly]
+   "Sundays don't have to be a whole reset. Sometimes it's just... a day. [shrugs, keeps walking]
+   Nothing has to be optimised."
 ```
 
-**Delivery note:** confidence, not defensiveness. She's not building a case or getting worked up — she says it once, gives the reason once, and moves on like it's obviously true and she's mildly amused anyone would need convincing. The moment delivery starts sounding like she's trying to *win* an argument, it's stopped being taste and started being drama — rewrite it softer and drier, not louder. No explicit "comment below!!" CTA ever (§7.3 — desperate-for-engagement is off-brand); the invitation to disagree lives in the dry, unbothered tone itself, not an instruction.
+**Delivery note:** confidence, not superiority. She's not building a case, and she's not performing tolerance either — she says it once, gives the reason once, and there's real warmth in her eyes when she looks at camera before moving on, like she's genuinely curious what others think, not just permitting them to think it. The moment delivery starts sounding like she's trying to *win* an argument, it's drama, not taste — rewrite it softer and drier. The moment it starts sounding like she doesn't need or want a reaction at all, it's superiority, not confidence — rewrite it warmer, with a real look at camera. No explicit "comment below!!" CTA ever (§7.3 — desperate-for-engagement is off-brand); the invitation to disagree should feel genuine in her eyes, not just implied by a dry tone alone.
 
 ---
 

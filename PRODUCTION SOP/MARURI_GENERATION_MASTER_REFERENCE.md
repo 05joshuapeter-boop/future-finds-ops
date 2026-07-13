@@ -206,7 +206,7 @@ First line = the hook, never starts with "I", max ~6 words, ends on a hard stop.
 
 **Consistency anchors that never change:** thin gold chain, small gold hoops, the face (element token), the accent. The jewellery does NOT need to be written into every prompt — but never write a prompt that contradicts it.
 
-**Rotation rules:** wardrobe — no repeat within the last 3 posts (pick freely from the unused list). Location, register, and exit — each varied from the immediately previous clip. **Log every new script here when it's written; confirm the row when QA passes. Next script number: 014.**
+**Rotation rules:** wardrobe — no repeat within the last 3 posts (pick freely from the unused list). Location, register, and exit — each varied from the immediately previous clip. **Log every new script here when it's written; confirm the row when QA passes. Next script number: 017.**
 
 | Script | Outfit | Location | Register | Exit/sign-off |
 |---|---|---|---|---|
@@ -224,7 +224,12 @@ First line = the hook, never starts with "I", max ~6 words, ends on a hard stop.
 | 011 | oatmeal oversized cardigan | kitchen | warmly-amused | warm-look close ("That's it, that's the whole take.") |
 | 012 | camel wrap cardigan over white tee | living room, evening | cute-amused | warm-look + trail-off ("Anyway.") |
 | 013 | sage green fine-knit jumper | bathroom mirror, morning | wry-warm | warm-look ("Feel free to fight me on it though.") |
-| **Unused next:** | white linen shirt · stone-grey loungewear set · charcoal fine-knit · dusty-blue crewneck · black relaxed turtleneck | | | |
+| 014 | black relaxed turtleneck | hallway/entry, evening | warm-ritual/honest | warm-look ON closing line, exits into flat |
+| 015 | white linen shirt | kitchen, afternoon | cheeky-warm | warm-look + trailing "...sorry", back to scone |
+| 016 | stone-grey loungewear set | bedroom, morning | playful-amused | warm-look + question held a beat, then pillow |
+| **Unused next:** | charcoal fine-knit · dusty-blue crewneck | | | |
+
+**Scheduling constraint (added 2026-07-13, pre-spend check):** 011–016 are six consecutive Type 7 hot takes in the script sequence — they must NOT post consecutively. Interleave every hot take with a Type 6/product or other-format post; the hot-take format itself reads as engagement-farming to this influencer-sceptical audience if it runs back-to-back.
 
 (006–010 all rendering in the same cream knit is the mistake that created the rotation rule.)
 

@@ -250,6 +250,45 @@ This is a physical hook, not just a verbal one. She isn't sitting down ready to 
 
 ---
 
+### TYPE 7 — THE HOT TAKE (opinion-only, zero product)
+*Best for: pure Viral Lifestyle / Growth content. The Character Bible splits content 40% Product Discovery / 40% Viral Lifestyle / 20% Personal-Lore (§7.1) — every script produced so far has been Product Discovery. This is the first hook type built specifically for Viral Lifestyle's other proven growth lever: an opinion specific enough that people stop and type a reply, agreeing or disagreeing.*
+
+No product anywhere in the clip, no affiliate link, nothing to buy. The entire clip is one confidently-held, specific, low-stakes opinion. She's not selling anything and not teasing a reveal — she says the true thing she thinks, gives one brief reason, and doesn't soften it.
+
+**Critical guardrail — read before writing any Type 7 script.** "Strong opinion" means confident and specific, **not divisive or dramatic.** Character Bible §7.3 is explicit: Maruri would never post "drama / controversy (not her register)." Every Type 7 topic must live entirely in low-stakes taste/lifestyle territory — interior design, communication habits, daily routines, aesthetic preferences, work-life norms. Never politics, real conflict, identity, or anything that reads as mean about a specific person or group. **The test:** could two friends have a lighthearted, slightly heated back-and-forth about this over coffee and still be friends five minutes later? If not, it's not a Type 7 topic — find a smaller, safer disagreement instead.
+
+**The formula:**
+```
+[mundane activity, same "caught mid-task" DNA as Type 6] → [a genuine trigger — "okay actually—",
+"no because—", "unpopular opinion but—"] → [states the opinion PLAINLY, no hedging, no
+"just my opinion but" softening] → [one brief, specific reason — not a lecture, one or two
+sentences] → [a dry, unbothered close — she's not chasing a reaction, she already believes it]
+```
+
+**What makes this different from Type 6:** Type 6 drops a product almost incidentally mid-sentence. Type 7 drops an *opinion* the same way — mid-task, unplanned-feeling, said once and left alone. There's no product beat to protect, so the clip can genuinely run shorter than the product scripts (10s or under is fine).
+
+**Ready-to-use scaffolds:**
+```
+1. [tidying, stops] "Okay, actually—" [half-laughs] "unpopular opinion, but leaving someone on
+   read for a few hours isn't rude. [shrugs, keeps tidying] It's called being busy. Anyway."
+
+2. [making tea, distracted] "No because—" [turns] "open shelving in kitchens is impractical and
+   I will never understand why it's still a whole aesthetic. [half-smile] Dust. Constant dust.
+   [turns back to the tea] That's it, that's the take."
+
+3. [sitting, looks up from her phone] "Wait, actually—" [sets phone down] "the ten-step skincare
+   routine thing is mostly just marketing. [shrugs] Cleanser, one serum, moisturiser. Done.
+   [half-laugh, picks phone back up] You can disagree, I won't be offended."
+
+4. [walking through the flat] "Okay, hot take—" [keeps walking, half turns back] "Sundays don't
+   have to be a whole reset. Sometimes it's just... a day. [shrugs, keeps walking] Nothing has
+   to be optimised."
+```
+
+**Delivery note:** confidence, not defensiveness. She's not building a case or getting worked up — she says it once, gives the reason once, and moves on like it's obviously true and she's mildly amused anyone would need convincing. The moment delivery starts sounding like she's trying to *win* an argument, it's stopped being taste and started being drama — rewrite it softer and drier, not louder. No explicit "comment below!!" CTA ever (§7.3 — desperate-for-engagement is off-brand); the invitation to disagree lives in the dry, unbothered tone itself, not an instruction.
+
+---
+
 ## OPENING TECHNIQUE — THE CAMERA FUMBLE
 
 *Confirmed by the operator (2026-07-12) as a distinct, stackable engagement technique — layers onto any hook type above, most naturally Type 6. This is a PHYSICAL cold-open, not a verbal hook — it happens before she's said a single scripted word.*

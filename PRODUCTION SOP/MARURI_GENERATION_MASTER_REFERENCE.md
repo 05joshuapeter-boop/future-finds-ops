@@ -294,6 +294,9 @@ Run `video_analysis_create` on the raw clip (cost ~0.1–0.4 credits — negligi
 | Technique | AI tell it defeats |
 |---|---|
 | ffmpeg grade (grain/flat/soft/cool) | too-clean skin, hyper-sharp detail, punchy generative colour |
+| **Force deep focus — "NO bokeh / NO shallow DOF / small old-phone sensor, everything equally sharp"** | **the model's #1 default tell for lifestyle clips: cinematic shallow depth-of-field that melts the background into bokeh and reads as a film shoot, not a phone. A polite "no portrait blur" line loses — repeat NO-bokeh several ways.** |
+| **Selfie-held, face-led framing (subject ~78%, food/object incidental at frame edge)** | **hero-object staging: a fanned-out styled arrangement (food board, positioned props) reads as a commercial advert. A hand-held selfie physically can't compose one. Keep any product/food small, low, un-presented.** |
+| **No live manipulation of food/soft objects (already-assembled, held still)** | **spreading jam, pouring, squishing — deforming-object physics is the model's weakest render; the hand/food/utensil boundary is the artifact zone. Show the after-state, not the action.** |
 | Single continuous take, 10s | cuts expose face/lighting inconsistency between generations; short duration limits within-clip drift |
 | Caught mid-task staging + camera fumble | "composed and camera-ready at frame one" reads as produced/synthetic |
 | Slightly imperfect framing | perfect rule-of-thirds composition reads as staged |

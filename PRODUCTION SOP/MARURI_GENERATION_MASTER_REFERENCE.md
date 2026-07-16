@@ -316,6 +316,28 @@ Run `video_analysis_create` on the raw clip (cost ~0.1–0.4 credits — negligi
 
 720p is invisible after the grade + platform re-compression — and softness is the aesthetic anyway. Never generate organic at the old 15s/1080p/std (135 credits) rate.
 
+## 7e. Finishing pass — music bed + burned captions (locked 2026-07-16)
+
+**Pipeline:** raw clip → 2012 grade → music bed sidechain-ducked under her voice → burned
+captions → export. One automated ffmpeg command — see `Pipeline_Tools/finishing_pass.sh` in
+the future-finds-ops repo. Proven end-to-end on clip 015.
+
+**Caption style: LOCKED to Style B — "Signal."** Word-by-word amber highlight (warm accent
+from the brand's cool-logic-to-warm-humanity gradient) sweeping across the phrase as she speaks
+it; base text off-white, thin/letter-spaced. Template: `Pipeline_Tools/style_B_signal.ass`.
+Timing is derived from real silence-detection on the clip's own audio (natural phrase/pause
+boundaries), not guessed — see the script for the method.
+
+**Music beds — mood-matched by content type, not one-size-fits-all:**
+| Content type | Bed | Status |
+|---|---|---|
+| Slow lifestyle / "morning routine" / "what I did today" (third-person, reflective) | **Easy Lemon** (Kevin MacLeod) | Locked 2026-07-16 |
+| Hot takes / Type 7 engagement clips (e.g. 015) | TBD | Library candidates (Radio Martini variants, Cool Vibes, Chill) rejected as not distinctive enough. Moving to a custom ElevenLabs-generated track, "inspired by" user-supplied reference songs (described, not copied) — pending user's reference tracks + cost approval (separate ElevenLabs balance, not Higgsfield credits). |
+
+**Rejected as a bed source:** Higgsfield's `sonilo_music` model — its own tool description
+states it exists only for the game-generation pipeline and must not be used for standalone
+audio. Do not use it here even though the backend doesn't hard-block the call.
+
 ---
 
 # 8. REPURPOSING — MINIMUM POINTS, MAXIMUM OUTPUT

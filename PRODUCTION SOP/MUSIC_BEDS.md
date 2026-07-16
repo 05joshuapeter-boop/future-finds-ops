@@ -33,10 +33,35 @@ used all session (e.g. 016's "mum/mom"). **User needs to click through and pick 
 out for a different Incompetech/library track). Each track is long enough to be trimmed to a
 rotating ~10-20s excerpt per clip in the finishing pass, so final duration isn't a constraint.
 
-## Working default for pipeline development
-**"At Rest"** is being used as the placeholder bed while building/proving the automated
-finishing pass (Phase 0.2) — this does NOT lock it in as a final choice. The pipeline takes the
-bed file as a parameter, so swapping the final 4 in later requires zero pipeline rework.
+## Decision — 2026-07-16
+None of the 5 original candidates were good enough for the hot-take/engagement content
+("Airport Lounge was good but not good enough"). A second, larger batch was sourced from a
+Kevin MacLeod lounge-themed album (Radio Martini variants, Cool Vibes, Chill, Easy Lemon) — see
+below. Verdict: **mood-match the bed to content type, not one bed for everything.**
+
+- **Easy Lemon** → **LOCKED** for slow lifestyle / "morning routine" / "what I did today"
+  third-person reflective content.
+- **Hot takes (015-style):** none of the library candidates were distinctive enough. Moving to
+  a **custom ElevenLabs-generated track**, described ("inspired by") from reference songs the
+  user supplies — not a direct library pick. Pending: reference songs + cost approval (separate
+  ElevenLabs balance).
+
+## Second batch (Kevin MacLeod, "Radio Martini" lounge album — archive.org/details/kevin-mac-leod-radio-martini)
+| Track | Listen | Verdict |
+|---|---|---|
+| Easy Lemon | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Easy%20Lemon.mp3 | **Locked — slow/routine content** |
+| Radio Martini | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Radio%20Martini.mp3 | Rejected (not distinctive enough for hot takes) |
+| Radio Martini (Slow) | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Radio%20Martini%20%28Slow%29.mp3 | Rejected |
+| Radio Martini (Fast) | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Radio%20Martini%20%28Fast%29.mp3 | Rejected |
+| Cool Vibes | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Cool%20Vibes.mp3 | Rejected |
+| Chill | https://archive.org/download/kevin-mac-leod-radio-martini/Kevin%20MacLeod%20-%20Chill.mp3 | Rejected |
+
+Same CC BY 4.0 license/attribution rule as the first batch (§ above).
+
+## Pipeline default (superseded by the decision above — kept for history)
+"At Rest" was used as a placeholder bed to build/prove the automated finishing pass (Phase 0.2)
+before any bed was actually chosen. The pipeline takes the bed file as a parameter, so this
+required zero pipeline rework to swap out.
 
 ## Storage
 Per the "keep the PC clean, Drive is canonical" rule: these source tracks are NOT duplicated into

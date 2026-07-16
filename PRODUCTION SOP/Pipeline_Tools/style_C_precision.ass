@@ -1,0 +1,22 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Precision,Avenir Next,13,&H00F5F0EB,&H00F5F0EB,&H001a1a1a,&H64000000,0,0,0,0,100,100,3.5,0,1,1.0,0,2,60,60,130,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:00.63,Precision,,0,0,0,,{\fscx100}—  OH...
+Dialogue: 0,0:00:01.20,0:00:01.88,Precision,,0,0,0,,{\fscx100}—  WHILE I'VE GOT YOU.
+Dialogue: 0,0:00:02.33,0:00:03.05,Precision,,0,0,0,,{\fscx100}—  JAM FIRST.
+Dialogue: 0,0:00:03.32,0:00:03.94,Precision,,0,0,0,,{\fscx100}—  ON A SCONE.
+Dialogue: 0,0:00:04.33,0:00:05.25,Precision,,0,0,0,,{\fscx100}—  IT'S STRUCTURAL...
+Dialogue: 0,0:00:05.51,0:00:06.82,Precision,,0,0,0,,{\fscx100}—  THE CREAM SITS BETTER ON TOP.
+Dialogue: 0,0:00:07.75,0:00:09.18,Precision,,0,0,0,,{\fscx100}—  I KNOW EXACTLY WHAT I'VE JUST STARTED...
+Dialogue: 0,0:00:09.46,0:00:10.05,Precision,,0,0,0,,{\fscx100}—  SORRY.

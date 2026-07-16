@@ -374,6 +374,30 @@ The caption first line is a second hook — it shows in the feed even when scrol
 
 ---
 
+## CLAIMS FRAMING — PRESENTER, NOT TESTIMONIAL (added 2026-07-16, ASA/CAP compliance)
+
+**The rule:** Maruri is a disclosed AI presenter. She has never personally used a product — she
+can't have. That makes first-person personal-testimony claims legally misleading under UK
+ASA/CAP rules for a synthetic presenter (see `UGC_Studio_Playbook.md` §4). This applies to
+future affiliate/product scripts going forward — **not a retroactive edit of already-posted
+content.**
+
+| Don't write (personal testimony) | Write instead (presenter/curator) |
+|---|---|
+| "I use this every day" | "This is the kind of thing you'd reach for every day" |
+| "This changed my life" | "This is the sort of small change that actually sticks" |
+| "It cured my [X]" | "[X]% of reviewers say it helped with..." / "clinically shown to..." |
+| "I can't live without this" | "38K reviews and counting — the mechanism is genuinely clever" |
+| "My skin has never looked better" | "The formula does [specific mechanism], which is the actual reason it works" |
+
+The distinction: she can genuinely **notice, evaluate, and recommend** something (that's real
+curation) — she just can't claim **personal lived experience** of using it. Most existing hooks
+in this doc (Type 1 "Personal Confession," Type 4 "Before/After") were written before this rule
+and lean first-person-testimony — apply this table when writing NEW scripts from those
+templates, don't assume the template text itself is still clean.
+
+---
+
 ## QUICK REFERENCE: READY HOOKS BY PRODUCT TYPE
 
 ### MATCHA / MORNING DRINK

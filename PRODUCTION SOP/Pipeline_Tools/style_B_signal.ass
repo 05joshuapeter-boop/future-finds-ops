@@ -1,0 +1,40 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SignalBase,Avenir Next,16,&H00F5F0EB,&H00F5F0EB,&H001a1a1a,&H64000000,1,0,0,0,100,100,1.0,0,1,1.2,0,2,60,60,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:00.63,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}OH...{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:01.20,0:00:01.41,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}WHILE{\c&H00F5F0EB\b0} I'VE GOT YOU.
+Dialogue: 0,0:00:01.41,0:00:01.58,SignalBase,,0,0,0,,WHILE {\c&H0047A8FF\b1}I'VE{\c&H00F5F0EB\b0} GOT YOU.
+Dialogue: 0,0:00:01.58,0:00:01.71,SignalBase,,0,0,0,,WHILE I'VE {\c&H0047A8FF\b1}GOT{\c&H00F5F0EB\b0} YOU.
+Dialogue: 0,0:00:01.71,0:00:01.88,SignalBase,,0,0,0,,WHILE I'VE GOT {\c&H0047A8FF\b1}YOU.{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:02.33,0:00:02.57,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}JAM{\c&H00F5F0EB\b0} FIRST.
+Dialogue: 0,0:00:02.57,0:00:03.05,SignalBase,,0,0,0,,JAM {\c&H0047A8FF\b1}FIRST.{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:03.32,0:00:03.46,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}ON{\c&H00F5F0EB\b0} A SCONE.
+Dialogue: 0,0:00:03.46,0:00:03.53,SignalBase,,0,0,0,,ON {\c&H0047A8FF\b1}A{\c&H00F5F0EB\b0} SCONE.
+Dialogue: 0,0:00:03.53,0:00:03.94,SignalBase,,0,0,0,,ON A {\c&H0047A8FF\b1}SCONE.{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:04.33,0:00:04.55,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}IT'S{\c&H00F5F0EB\b0} STRUCTURAL...
+Dialogue: 0,0:00:04.55,0:00:05.25,SignalBase,,0,0,0,,IT'S {\c&H0047A8FF\b1}STRUCTURAL...{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:05.51,0:00:05.67,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}THE{\c&H00F5F0EB\b0} CREAM SITS BETTER ON TOP.
+Dialogue: 0,0:00:05.67,0:00:05.94,SignalBase,,0,0,0,,THE {\c&H0047A8FF\b1}CREAM{\c&H00F5F0EB\b0} SITS BETTER ON TOP.
+Dialogue: 0,0:00:05.94,0:00:06.16,SignalBase,,0,0,0,,THE CREAM {\c&H0047A8FF\b1}SITS{\c&H00F5F0EB\b0} BETTER ON TOP.
+Dialogue: 0,0:00:06.16,0:00:06.49,SignalBase,,0,0,0,,THE CREAM SITS {\c&H0047A8FF\b1}BETTER{\c&H00F5F0EB\b0} ON TOP.
+Dialogue: 0,0:00:06.49,0:00:06.60,SignalBase,,0,0,0,,THE CREAM SITS BETTER {\c&H0047A8FF\b1}ON{\c&H00F5F0EB\b0} TOP.
+Dialogue: 0,0:00:06.60,0:00:06.82,SignalBase,,0,0,0,,THE CREAM SITS BETTER ON {\c&H0047A8FF\b1}TOP.{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:07.75,0:00:07.80,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}I{\c&H00F5F0EB\b0} KNOW EXACTLY WHAT I'VE JUST STARTED...
+Dialogue: 0,0:00:07.80,0:00:07.96,SignalBase,,0,0,0,,I {\c&H0047A8FF\b1}KNOW{\c&H00F5F0EB\b0} EXACTLY WHAT I'VE JUST STARTED...
+Dialogue: 0,0:00:07.96,0:00:08.26,SignalBase,,0,0,0,,I KNOW {\c&H0047A8FF\b1}EXACTLY{\c&H00F5F0EB\b0} WHAT I'VE JUST STARTED...
+Dialogue: 0,0:00:08.26,0:00:08.42,SignalBase,,0,0,0,,I KNOW EXACTLY {\c&H0047A8FF\b1}WHAT{\c&H00F5F0EB\b0} I'VE JUST STARTED...
+Dialogue: 0,0:00:08.42,0:00:08.59,SignalBase,,0,0,0,,I KNOW EXACTLY WHAT {\c&H0047A8FF\b1}I'VE{\c&H00F5F0EB\b0} JUST STARTED...
+Dialogue: 0,0:00:08.59,0:00:08.76,SignalBase,,0,0,0,,I KNOW EXACTLY WHAT I'VE {\c&H0047A8FF\b1}JUST{\c&H00F5F0EB\b0} STARTED...
+Dialogue: 0,0:00:08.76,0:00:09.17,SignalBase,,0,0,0,,I KNOW EXACTLY WHAT I'VE JUST {\c&H0047A8FF\b1}STARTED...{\c&H00F5F0EB\b0}
+Dialogue: 0,0:00:09.46,0:00:10.05,SignalBase,,0,0,0,,{\c&H0047A8FF\b1}SORRY.{\c&H00F5F0EB\b0}

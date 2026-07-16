@@ -1,6 +1,15 @@
 #!/bin/bash
 # Maruri finishing pass v1 — raw clip -> graded + bed-ducked + captioned final
 # Usage: ./finishing_pass.sh <raw.mp4> <bed.mp3> <captions.ass> <output.mp4>
+#
+# Drive storage (confirmed live 2026-07-16, Google Drive Desktop, Stream files mode):
+#   Raw:       "G:/My Drive/Future Finds/04 Content Production/Raw Videos/<clip>_raw.mp4"
+#   Final:     "G:/My Drive/Future Finds/04 Content Production/Published Videos/<clip>_graded.mp4"
+#   Music:     "G:/My Drive/Future Finds/04 Content Production/Music Beds/"
+# Writing to these paths is a normal file write — Drive Desktop syncs automatically,
+# zero LLM/context cost. Do NOT route media through the Drive MCP tool's base64
+# upload — confirmed unworkable for files over ~200KB (a 121KB audio test alone cost
+# ~150K tokens). Small text/docs/xlsx (<50KB or so) are fine through the MCP tool.
 set -e
 FFMPEG="/c/Users/tensi/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg.exe"
 

@@ -1,5 +1,5 @@
 # OUTBOUND PITCH EMAIL TEMPLATES
-## Future Finds / Maruri Mori · v1.0 · July 2026
+## Future Finds Media · v1.1 · updated 2026-07-21 (studio pivot: 48h turnaround, free-hooks lead offer, founding rates)
 
 **Before the first send:** the `futurefindsmedia.com/media/...` links below only resolve once the site is deployed (checklist 0.3) — don't send any template until you've confirmed those URLs load in a browser.
 
@@ -8,6 +8,10 @@
 - The first line must be specific to *them* — a product, a recent launch, an ad of theirs you actually saw. Generic openers get deleted.
 - Link the demo reel + brand-pitch page. Never attach the rate card cold — that's for after a reply.
 - One CTA only. Never two asks.
+- **The lead offer is the free sample:** *"send us your current best ad and we'll script 3
+  fresh hooks against it, free — judge us on the work."* Lead with that, not a rates
+  conversation. When rates come up after a reply: founding-client £150 Hook-Test Bundle →
+  £400/mo retainer ladder (rate-card.html). Turnaround is **48 hours from approved script**.
 - Send from hello@futurefindsmedia.com. Follow up twice, then stop.
 
 **Personalisation checklist before hitting send:**
@@ -27,7 +31,7 @@
 >
 > Maruri featured [product] on Future Finds recently — genuine editorial pick, no payment involved. [One line of performance: "It's at X views and the comments are asking where to buy it."]
 >
-> That's the organic version. The paid version: we produce UGC ad creative for brands' own ad accounts — same warm, editorial delivery, built for dark posts and boosted content. Because Maruri is a fully directed digital creator, you get unlimited hook variations, revisions without reshoots, and delivery in 3–5 days from approved script.
+> That's the organic version. The paid version: we produce UGC ad creative for brands' own ad accounts — same warm, editorial delivery, built for dark posts and boosted content. Because Maruri is a fully directed digital creator, you get unlimited hook variations, revisions without reshoots, and delivery in 48 hours from approved script.
 >
 > 30-second reel of what that looks like: futurefindsmedia.com/media/demo-reel-9x16.mp4
 > How we work with brands: futurefindsmedia.com/brand-pitch.html
@@ -49,12 +53,12 @@
 >
 > [Specific opener — e.g., "Saw your latest TikTok ads for [product] — the creator-style ones are clearly your workhorse format."]
 >
-> Future Finds produces UGC ad creative around Maruri Mori, a digital creator with a taste-led, 22–34 UK audience. The difference from booking human talent: every variant has the same face, voice, and delivery; revisions never need a reshoot; and new hooks turn around in days. You approve the script — what you approve is exactly what gets made.
+> Future Finds Media is a performance UGC studio built around Maruri, our hyper-realistic virtual presenter. The difference from booking human talent: every variant has the same face, voice, and delivery; revisions never need a reshoot; new hooks turn around in 48 hours; and perpetual paid usage is included. You approve the script — what you approve is exactly what gets made.
 >
 > 30 seconds of her work: futurefindsmedia.com/media/demo-reel-9x16.mp4
 > The full picture: futurefindsmedia.com/brand-pitch.html
 >
-> Open to 15 minutes this week to see if it fits your creative testing?
+> If you send over your current best-performing ad, we'll script 3 fresh hooks against it — free, no call needed — and you can judge us on the work. Worth a look?
 >
 > [Sign-off]
 > Future Finds · @futurefindsmedia
@@ -65,13 +69,13 @@
 
 ## TEMPLATE C — Agency (buys creative for multiple clients)
 
-**Subject:** `A UGC creator your clients can book on 3 days' notice`
+**Subject:** `A UGC creator your clients can book on 48 hours' notice`
 
 > Hi [Name],
 >
 > [Specific opener — reference a campaign of theirs or a client vertical they run.]
 >
-> Future Finds is a UGC studio built around Maruri Mori, a directed digital creator. For an agency, the pitch is operational: on-demand availability, 3–5 day standard turnaround, unlimited hook/CTA variants without reshoots, consistent delivery across every asset, and clean one-page licensing with no usage renegotiations mid-flight. She's the creator who never blows a deadline across any client you put her on.
+> Future Finds Media is a performance UGC studio built around Maruri, our directed virtual presenter. For an agency, the pitch is operational: on-demand availability, 48-hour standard turnaround, unlimited hook/CTA variants without reshoots, consistent delivery across every asset, and perpetual paid-usage licensing with no renegotiations mid-flight. She's the creator who never blows a deadline across any client you put her on.
 >
 > Reel: futurefindsmedia.com/media/demo-reel-9x16.mp4 · Full overview: futurefindsmedia.com/brand-pitch.html
 >
@@ -88,7 +92,7 @@
 
 **Follow-up 1 — 4 business days later:**
 
-> Hi [Name] — floating this back up. The short version: creator-style ad creative, 3–5 day turnaround, variants without reshoots. The reel is 30 seconds: futurefindsmedia.com/media/demo-reel-9x16.mp4. If creative testing isn't your remit, who's the right person?
+> Hi [Name] — floating this back up. The short version: creator-style ad creative, 48-hour turnaround, variants without reshoots — and the offer of 3 free hook scripts against your current best ad stands. The reel is 30 seconds: futurefindsmedia.com/media/demo-reel-9x16.mp4. If creative testing isn't your remit, who's the right person?
 
 **Follow-up 2 — 7 business days after that (breakup email):**
 

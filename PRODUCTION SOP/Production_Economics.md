@@ -5,12 +5,25 @@
 
 ## Why this exists
 
-No UGC deal or affiliate income has landed yet. Higgsfield credits are a depleting
-balance (Ultra plan, checked 2026-07-12: **3,918.8 credits remaining**), not free —
-every clip generated is real spend against a runway that has to last until revenue
-starts. This doc is the standing constraint on all future generation work: **default
-to the cheapest settings that still work, and get more than one piece of content out
-of every clip that does get generated.**
+No UGC deal or affiliate income has landed yet. This doc is the standing constraint on
+all generation work: **default to the cheapest settings that still work, and get more
+than one piece of content out of every clip that does get generated.**
+
+**MAJOR UPDATE 2026-07-21 — the balance REFRESHES: 9,000 credits/month.** Operator
+confirmed from the billing page: the Ultra plan is a fixed **9,000 credits/mo** allowance
+(billed annually), refreshing each cycle — NOT the one-time depleting pool this doc
+originally assumed. Also includes: up to 8 parallel video generations, all Seedance
+models (2.0 at 1080p/8s and 720p/15s, Fast/Mini 15s), Kling 3.0, Nano Banana Pro/2,
+audio models (Seed Audio, Eleven v3, MiniMax Speech), GPT Image 2, and a set of
+"7-day Unlimited" rotating models.
+
+**What changes:** runway anxiety is gone — budgeting is per-month, not against a
+shrinking pool. At the locked 35-credit organic settings, 9,000/mo ≈ **~257 videos/mo**,
+vastly more than any realistic posting cadence. **What does NOT change:** the QA-log
+redo discipline (a redo still wastes a month-capped resource), the cheapest-settings
+default, and the repurposing rule below. Discipline stays; scarcity fear goes.
+**Use-it-or-lose-it corollary:** unspent monthly credits don't bank — month-end
+surplus should be spent on the stills engine / experiments, not left on the table.
 
 ## What a generation actually costs (confirmed via `get_cost`, 2026-07-12)
 
@@ -95,11 +108,16 @@ Teaser cut (first N seconds, re-encoded so it's a clean standalone file):
 ffmpeg -i "<clip-url>" -t <seconds> -c:v libx264 -c:a aac "teaser.mp4" -y
 ```
 
-## Practical budget going forward
+## Practical budget going forward (updated 2026-07-21 for the monthly refresh)
 
-At 35 credits/clip: a 5-clip week (matching the current posting cadence) costs
-175 credits, not the 945 this week actually cost. That's roughly **22 weeks of
-runway** at the current balance if the new default settings and lower redo rate
-both hold — call it a hard ceiling to watch, not a target to spend down to.
+Monthly allowance: **9,000 credits.** Indicative monthly budget at current plans:
+- Organic video (5 feed clips/wk × 35cr, incl. ~20% redo buffer): ~**850/mo**
+- Stills engine (Phase 1.1, once running — stories + candids): ~**500–1,000/mo**
+- Paid-track client work + mock ads (1080p/std, 90cr each + drafts): ~**1,000–2,000/mo**
+- Experiments / repurposing / QA analysis: ~**500/mo**
 
-*Production Economics · v1.0 · 2026-07-12*
+Total comfortably under half the allowance even at full tilt — the constraint has moved
+from "credits" to **operator approval time and posting cadence**. Plan accordingly: the
+bottleneck to manage is the human loop, not the meter.
+
+*Production Economics · v1.1 · updated 2026-07-21 (monthly-refresh economics)*

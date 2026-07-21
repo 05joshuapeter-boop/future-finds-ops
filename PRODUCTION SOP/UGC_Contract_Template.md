@@ -11,8 +11,14 @@
 
 **CREATIVE SERVICES AGREEMENT**
 
-Between **[Client legal name]** ("Client") and **[Operator legal name / trading as Future
-Finds Media]** ("Studio"), dated **[date]**.
+Between **[Client legal name]** ("Client") and **Stellar Technologies Ltd, trading as
+Future Finds Media** (registered in England and Wales; "Studio"), dated **[date]**.
+
+*(Entity confirmed by operator 2026-07-21: the seller for all Future Finds Media UGC work is
+Stellar Technologies Ltd. Before first use, add the company number + registered address from
+the Companies House record. Invoicing note: Stellar's VAT registration was submitted ~June
+2026 as an intending trader — confirm current VAT status with the accountant before setting
+the VAT treatment on the first invoice.)*
 
 ### 1. Services & Deliverables
 The Studio will produce short-form video advertising creative featuring its virtual presenter

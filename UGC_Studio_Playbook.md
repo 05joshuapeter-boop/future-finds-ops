@@ -65,6 +65,11 @@ portfolio (§6) are the first real stress-test of that pipeline AND double as sa
 
 ## 4. LEGAL / COMPLIANCE (UK) — non-negotiables
 
+**Seller entity (confirmed 2026-07-21):** all UGC deals are contracted and invoiced by
+**Stellar Technologies Ltd t/a Future Finds Media**. Confirm VAT status with the accountant
+before the first invoice. **Operator identity for outreach (confirmed same day):** real name +
+LinkedIn (founder framing) — LinkedIn profile revamp is a pending task before outreach launch.
+
 - **ASA "testimonial trap":** an AI presenter legally CANNOT give personal testimony ("this cured
   my eczema" — she never used it; misleading under ASA/CAP). She **presents brand claims**
   ("clinically proven to reduce X by 40%"), never testifies. Bake into every script (applies to

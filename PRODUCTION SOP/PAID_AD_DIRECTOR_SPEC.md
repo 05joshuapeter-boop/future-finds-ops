@@ -63,7 +63,9 @@ glow, lens flare, slow push-in.
 | No hero-object staging; props incidental, angled, low | styled product tableaus read as CGI adverts |
 | No live manipulation of food/soft/deforming objects | deformation physics is the model's weakest render |
 | **Screens NEVER readable** — phone angled away/low | generated UI text is a guaranteed tell; real client UI arrives as B-roll in the edit |
-| No brand text rendered anywhere | garbled text = instant giveaway |
+| No brand text rendered anywhere — ban brands PER OBJECT, and avoid colour+object combos with iconic brand priors ("cream kettle"→Smeg; prefer "brushed stainless, no markings" or omit the appliance) | proven three times (015 jam jar, 004 SMEG twice): generic bans lose; even object-specific bans lose to a colour-summoned brand prior. Escape hatch: ffmpeg `delogo` on a static-ish background logo is a proven free fix before any re-roll. |
+| **Unrenderable-prop rule: after 2 failed prompt-fights on a prop attribute, REMOVE the prop — don't describe harder** | proven on 004: the model colour-coordinated the phone with her gold jewellery 3 drafts running, beating explicit multi-way colour bans. She is the ad; product/UI is edit-stage B-roll. Fewer props = fewer tells, always. |
+| **Prop devices get explicit generation/finish** ("current-generation iPhone, edge-to-edge, dark neutral") when a device must appear | camera-era wording bleeds into hand-props — 004 draft 1 rendered an old gold home-button iPhone in an ad about a modern app |
 | Accurate lip-sync, realistic blinking, micro-movements pinned in every prompt | dead-eye stillness is the #1 clean-look tell |
 | Accent pins verbatim from organic canon (consistent soft London English, never drifting) | voice drift breaks the character across the portfolio |
 | Small gestures only | hand artifacts |
@@ -94,10 +96,8 @@ natural quiet room tone only — no music, no sound effects."
    (background sharp) · no readable screen/text · hands clean · energy = warm
    direct-response, not flat/salesy · hook lands <2s · close on-camera warm look.
 3. **Final render at 1080p · std (90cr)** ONLY after a draft passes QA fully.
-   ⚠ OPEN ITEM: plan sheet suggests 1080p/std may cap at 8s duration — verify with
-   `get_cost`/`models_explore` at final-render time; if capped, options are (a) tighten
-   delivery to 8s (preferred — ads are better shorter) or (b) render 720p/15s and
-   `upscale_video`. Resolve on first final render and record the answer here.
+   ✅ RESOLVED 2026-07-22: no 8s cap — 10s·1080p·std preflights cleanly at 90 credits
+   (the "1080p, 8s" line on the plan page is an Unlimited-mode tier limit, not an API cap).
 4. Every attempt gets a QA_LOG.md row, same as organic.
 
 ## 7. THE GO/NO-GO GATE (why Ad 004 exists)
